@@ -1,0 +1,6 @@
+# Standard
+node_modules/
+.DS_Store
+
+# Project-specific
+dist/

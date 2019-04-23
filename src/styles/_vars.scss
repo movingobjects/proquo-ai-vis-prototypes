@@ -1,0 +1,20 @@
+
+// Vars
+
+
+// Mixins/extends
+
+@mixin tracking($amt) {
+  letter-spacing: #{$amt / 1000}em;
+}
+
+%clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+%hide-text {
+  font: 0/0 x;
+  color: transparent;
+}

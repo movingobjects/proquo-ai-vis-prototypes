@@ -1,1 +1,1 @@
-# proquo-ai-vis-prototypes
+# ProQuo AI Visualization Prototypes
