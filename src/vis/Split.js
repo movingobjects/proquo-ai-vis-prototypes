@@ -14,8 +14,7 @@ export default class Split {
 
     this.initView();
 
-    this.updatePush(this.getDataSplit('push'));
-    this.updatePull(this.getDataSplit('pull'));
+    this.reset();
 
   }
 
@@ -29,6 +28,7 @@ export default class Split {
     this.$inputs       = $(`${this.selector} .wrap-input input`);
     this.$inputsPush   = $(`${this.selector} .wrap-input p.push input`);
     this.$inputsPull   = $(`${this.selector} .wrap-input p.pull input`);
+    this.$resetBtn     = $(`${this.selector} .wrap-input button.reset`);
 
     this.$inputs
       .attr('min', SPLIT_MIN)
@@ -45,6 +45,16 @@ export default class Split {
         let val = $(target).val();
         this.updatePull(val)
       });
+
+    this.$resetBtn
+      .on('click', () => this.reset());
+
+  }
+
+  reset() {
+
+    this.updatePush(this.getDataSplit('push'));
+    this.updatePull(this.getDataSplit('pull'));
 
   }
 

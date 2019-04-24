@@ -13,8 +13,7 @@ export default class Thermostat {
     this.selector = selector;
 
     this.initView();
-
-    this.update(this.dataBxp);
+    this.reset();
 
   }
 
@@ -23,7 +22,12 @@ export default class Thermostat {
     this.d3Outline = d3.select(`${this.selector} .wrap-vis svg rect.outline`);
     this.d3Fill    = d3.select(`${this.selector} .wrap-vis svg rect.fill`);
 
+    this.$resetBtn = $(`${this.selector} .wrap-input button.reset`);
     this.$inputs   = $(`${this.selector} .wrap-input input`);
+
+    this.$resetBtn
+      .on('click', () => this.reset());
+
     this.$inputs
       .attr('min', BXP_MIN)
       .attr('max', BXP_MAX)
@@ -31,6 +35,10 @@ export default class Thermostat {
         this.update($(target).val())
       });
 
+  }
+
+  reset() {
+    this.update(this.dataBxp);
   }
 
   get dataBxp() {
