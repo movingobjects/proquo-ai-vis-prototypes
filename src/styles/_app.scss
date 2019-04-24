@@ -43,13 +43,39 @@ section {
 
     div.wrap-vis svg {
 
-      rect.outline {
-        stroke-width: 1;
-        fill-opacity: 0;
-        stroke: black;
+      rect {
+
+        &.outline {
+          stroke-width: 1;
+          fill-opacity: 0;
+          stroke: black;
+        }
+
+        &.fill {
+          fill: black;
+        }
+
       }
-      rect.fill {
-        fill: black;
+
+    }
+
+  }
+
+  &#vis-2 {
+
+    div.wrap-vis svg {
+
+      rect {
+
+        &.outline {
+          stroke-width: 1;
+          fill-opacity: 0;
+          stroke: black;
+        }
+        &.fill {
+          fill: black;
+        }
+
       }
 
     }
