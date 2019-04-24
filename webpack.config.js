@@ -180,10 +180,6 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/vis-1.html',
-      filename: 'vis-1.html'
-    }),
     new HtmlWebpackIncludeAssetsPlugin({
       assets: [
         'resources/externals/jquery/jquery.' + (isDev ? 'slim' : 'slim.min') + '.js'

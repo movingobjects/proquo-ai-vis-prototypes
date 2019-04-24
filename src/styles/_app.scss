@@ -1,0 +1,42 @@
+
+body {
+  font: 15px sans-serif;
+}
+
+section {
+
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+
+  svg {
+    border: 1px solid #ccc;
+  }
+
+  &#data-summary {
+
+    textarea {
+      width: 500px;
+      height: 250px;
+    }
+
+  }
+
+  &#vis-1 {
+
+    svg.chart {
+
+      rect {
+        fill: green;
+      }
+      text {
+        fill: black;
+        font: 12px sans-serif;
+        text-anchor: end;
+      }
+
+    }
+
+  }
+
+}

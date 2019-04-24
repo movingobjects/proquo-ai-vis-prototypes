@@ -1,0 +1,3263 @@
+[
+  {
+    "brandId": 10,
+    "brandName": "Leon",
+    "brandType": "Z",
+    "bxpElements": [
+      {
+        "brand_id": 10,
+        "score": 477.96,
+        "has_delta": false,
+        "delta_perc": 0,
+        "timestamp": "2019-04-17T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 164.54,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -64.42,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 91.35,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 66.66,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 31.48,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 68.98,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 28.29,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -14.77,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -75.94,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 313.42,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 34.34,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 74.31,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -10.71,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 77.89,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -73.89,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 57,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 54.23,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 37.57,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 459.29,
+        "has_delta": true,
+        "delta_perc": -3.91,
+        "timestamp": "2019-04-18T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 145.75,
+            "delta_perc": -11.42,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -63.14,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 92.07,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 60.63,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 29.08,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 62.43,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 29.12,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -15.33,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -78.26,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 313.54,
+            "delta_perc": 0.04,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 33.01,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 74.22,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -11.43,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 83.43,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -76.71,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 56.96,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 52.73,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 38.62,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 458.98,
+        "has_delta": true,
+        "delta_perc": -0.07,
+        "timestamp": "2019-04-19T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 145.27,
+            "delta_perc": -0.33,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -67.69,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 97.06,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 61.5,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 29.04,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 63.57,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 28.99,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -15.08,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -81.17,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 313.71,
+            "delta_perc": 0.05,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 34.91,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 74.02,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -10.89,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 88.36,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -73.74,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 52.01,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 49.69,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 36.61,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 444.96,
+        "has_delta": true,
+        "delta_perc": -3.05,
+        "timestamp": "2019-04-20T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 138.58,
+            "delta_perc": -4.61,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -68.35,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 88.83,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 64.03,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 27.61,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 60.99,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 30.19,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -15.13,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -77.31,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 306.38,
+            "delta_perc": -2.34,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 35.08,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 80.18,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -9.93,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 81.75,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -81.09,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 51.2,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 47.76,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 40.15,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 441.33,
+        "has_delta": true,
+        "delta_perc": -0.82,
+        "timestamp": "2019-04-21T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 132.39,
+            "delta_perc": -4.47,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -72.34,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 90.4,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 60.07,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 27.7,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 58.9,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 30.94,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -16.58,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -73.18,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 308.94,
+            "delta_perc": 0.84,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 37.37,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 83.87,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -8.99,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 82,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -80.06,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 48.43,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 43.74,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 40.79,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 450.67,
+        "has_delta": true,
+        "delta_perc": 2.12,
+        "timestamp": "2019-04-22T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 137.2,
+            "delta_perc": 3.63,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -75.72,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 96.45,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 56.15,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 29.95,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 57.8,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 28.93,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -17.12,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -66.68,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 313.47,
+            "delta_perc": 1.47,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 39.83,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 86.86,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -9,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 85.93,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -85.65,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 49.11,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 45.9,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 37.8,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 418.18,
+        "has_delta": true,
+        "delta_perc": -7.21,
+        "timestamp": "2019-04-23T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 116.01,
+            "delta_perc": -15.44,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -81.07,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 90.12,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 51.51,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 27.54,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 57.32,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 31.42,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -16.72,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -67.31,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 302.17,
+            "delta_perc": -3.6,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 38.37,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 81.62,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -8.97,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 90.54,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -89.7,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 44.41,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 49.64,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 35.83,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 10,
+        "score": 427.59,
+        "has_delta": true,
+        "delta_perc": 2.25,
+        "timestamp": "2019-04-24T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 133.75,
+            "delta_perc": 15.29,
+            "drivers": [
+              {
+                "id": "as",
+                "score": -76.82,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 84.04,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 55.02,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": 29.54,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 61.42,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 34.49,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -15.73,
+                "selfie_rank": 0,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -64.96,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": 293.84,
+            "delta_perc": -2.76,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 36.83,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": 77.55,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -8.95,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 91.46,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -96.31,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": 46.02,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 51.95,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 36.52,
+                "selfie_rank": 1,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brandId": 12,
+    "brandName": "Eat",
+    "brandType": "Z",
+    "bxpElements": [
+      {
+        "brand_id": 12,
+        "score": -310.43,
+        "has_delta": false,
+        "delta_perc": 0,
+        "timestamp": "2019-04-17T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -204.43,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 53.75,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -35.24,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 23.95,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -40.18,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -73.79,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -41.7,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -77.21,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 26.88,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -106,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 29.35,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -70.84,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -39.56,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -23.32,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.29,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -14.95,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -32.62,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 72.43,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -307.03,
+        "has_delta": true,
+        "delta_perc": 1.1,
+        "timestamp": "2019-04-18T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -208.54,
+            "delta_perc": -2.01,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 52.04,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -38.56,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 24.69,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -42.82,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -78.4,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -37.64,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -72.1,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 25.96,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -98.49,
+            "delta_perc": 7.08,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 29.53,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -63.94,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -40.66,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -25.51,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.52,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -14.38,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -33.59,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 75.28,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -314.08,
+        "has_delta": true,
+        "delta_perc": -2.3,
+        "timestamp": "2019-04-19T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -210.74,
+            "delta_perc": -1.05,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 51.72,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -37.37,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 25.62,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -44.84,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -72.87,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -40.38,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -77.63,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 27.16,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -103.34,
+            "delta_perc": -4.92,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 27.67,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -58.09,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -39.97,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -25.19,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.96,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -13.86,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -36.3,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 69.03,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -319.07,
+        "has_delta": true,
+        "delta_perc": -1.59,
+        "timestamp": "2019-04-20T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -211.89,
+            "delta_perc": -0.55,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 47.7,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -39.54,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 23.28,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -41.48,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -70.08,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -38.21,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -80.44,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 29.26,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -107.18,
+            "delta_perc": -3.72,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 25.78,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -52.62,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -42.04,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -23.47,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -6.02,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -14.25,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -39.19,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 66.07,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -341.79,
+        "has_delta": true,
+        "delta_perc": -7.12,
+        "timestamp": "2019-04-21T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -225.79,
+            "delta_perc": -6.56,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 49.15,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -38.85,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 23.53,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -42.8,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -76.84,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -41.8,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -82.94,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 29.92,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -116,
+            "delta_perc": -8.23,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 28.35,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -56.09,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -45.1,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -23.62,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.81,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -15.31,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -39.87,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 64.65,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -326.28,
+        "has_delta": true,
+        "delta_perc": 4.54,
+        "timestamp": "2019-04-22T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -215.72,
+            "delta_perc": 4.46,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 49.11,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -41.56,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 21.34,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -39.05,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -69.96,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -43.31,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -76.54,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 27.39,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -110.56,
+            "delta_perc": 4.69,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 29.87,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -55.09,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -41.45,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -24.56,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.89,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -14.28,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -37.91,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 60.86,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -343.07,
+        "has_delta": true,
+        "delta_perc": -5.15,
+        "timestamp": "2019-04-23T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -224.93,
+            "delta_perc": -4.27,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 50.07,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -43.33,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 19.45,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -41.51,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -67.72,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -45.46,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -80.76,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 29.32,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -118.14,
+            "delta_perc": -6.86,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 27.57,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -52.52,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -43.85,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -24.68,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -5.75,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -15.66,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -39.88,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 60.26,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 12,
+        "score": -351.35,
+        "has_delta": true,
+        "delta_perc": -2.41,
+        "timestamp": "2019-04-24T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": -228.4,
+            "delta_perc": -1.54,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 54.31,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": -45.29,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": 18.74,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -45.16,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": -63.27,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": -49.61,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -80.42,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": 27.98,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -122.95,
+            "delta_perc": -4.07,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": 29.21,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -48.96,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -47.65,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": -25.54,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -6.02,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -17.17,
+                "selfie_rank": 2,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": -37.43,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": 55.2,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brandId": 11,
+    "brandName": "Pret a Manger",
+    "brandType": "Z",
+    "bxpElements": [
+      {
+        "brand_id": 11,
+        "score": -53.4,
+        "has_delta": false,
+        "delta_perc": 0,
+        "timestamp": "2019-04-17T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 142.01,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 20.78,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 91.29,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -96.5,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -18.23,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 40.8,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 88.36,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.19,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.7,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -195.41,
+            "delta_perc": 0,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -82.21,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -29.53,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -41.67,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 13.61,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -30.34,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -21.51,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 89.12,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -53.8,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -39.55,
+        "has_delta": true,
+        "delta_perc": 25.94,
+        "timestamp": "2019-04-18T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 147.38,
+            "delta_perc": 3.78,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 22.32,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 98.37,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -94.35,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -19.14,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 43.08,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 79.58,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.1,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -8.86,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -186.93,
+            "delta_perc": 4.34,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -79.49,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -31.6,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -41.78,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 14,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -27.56,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -19.56,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 87.27,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -50.82,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -39.64,
+        "has_delta": true,
+        "delta_perc": -0.23,
+        "timestamp": "2019-04-19T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 149.09,
+            "delta_perc": 1.16,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 23.82,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 93.47,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -96.11,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -18.67,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 44.44,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 84.51,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.19,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -188.73,
+            "delta_perc": -0.96,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -83.54,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -28.49,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -39.53,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 15.31,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -29.46,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -19.23,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 82.21,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -48.25,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -49.98,
+        "has_delta": true,
+        "delta_perc": -26.08,
+        "timestamp": "2019-04-20T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 142.69,
+            "delta_perc": -4.29,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 24.56,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 84.25,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -101.12,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -17.81,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 47.2,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 88.96,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -2.93,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -8.96,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -192.67,
+            "delta_perc": -2.09,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -83.02,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -27.66,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -40.16,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 14.42,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -30.86,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -18.21,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 82.01,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -50.66,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -47.59,
+        "has_delta": true,
+        "delta_perc": 4.78,
+        "timestamp": "2019-04-21T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 133.41,
+            "delta_perc": -6.5,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 26.37,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 87.67,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -104.61,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -16.15,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 45.06,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 81.01,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.02,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.6,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -181,
+            "delta_perc": 6.06,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -76.29,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -25.22,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -36.48,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 15.31,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -30.16,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -17.94,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 77.02,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -51.04,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -46.9,
+        "has_delta": true,
+        "delta_perc": 1.45,
+        "timestamp": "2019-04-22T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 127.17,
+            "delta_perc": -4.68,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 26.46,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 80.17,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -101.57,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -14.84,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 46.66,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 77.05,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.01,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.18,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -174.07,
+            "delta_perc": 3.83,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -69.93,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -27.65,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -33.92,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 14.17,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -31.98,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -16.7,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 78.67,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -51.92,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -50.5,
+        "has_delta": true,
+        "delta_perc": -7.68,
+        "timestamp": "2019-04-23T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 117.9,
+            "delta_perc": -7.29,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 28.43,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 79.67,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -108.74,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -15.76,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 42.1,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 80.98,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.13,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.23,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -168.4,
+            "delta_perc": 3.26,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -68.2,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -29.43,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -33.07,
+                "selfie_rank": 0,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 14.74,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -31.42,
+                "selfie_rank": 1,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -15.92,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 84.01,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -55.43,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "brand_id": 11,
+        "score": -54.63,
+        "has_delta": true,
+        "delta_perc": -8.18,
+        "timestamp": "2019-04-24T15:43:32.000Z",
+        "ppElements": [
+          {
+            "id": "pull",
+            "score": 116.53,
+            "delta_perc": -1.16,
+            "drivers": [
+              {
+                "id": "as",
+                "score": 26.15,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "at",
+                "score": 87.22,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "di",
+                "score": -117.14,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "em",
+                "score": -16.56,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "mo",
+                "score": 39.97,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pe",
+                "score": 86,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "pu",
+                "score": -3.25,
+                "selfie_rank": 2,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "rl",
+                "score": -9.17,
+                "selfie_rank": 2,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              }
+            ]
+          },
+          {
+            "id": "push",
+            "score": -171.16,
+            "delta_perc": -1.64,
+            "drivers": [
+              {
+                "id": "aw",
+                "score": -72.71,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "co",
+                "score": -31.67,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "ea",
+                "score": -31.63,
+                "selfie_rank": 1,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "in",
+                "score": 15.15,
+                "selfie_rank": 2,
+                "comparison_rank": 1,
+                "delta_perc": 0
+              },
+              {
+                "id": "po",
+                "score": -33.66,
+                "selfie_rank": 0,
+                "comparison_rank": 2,
+                "delta_perc": 0
+              },
+              {
+                "id": "re",
+                "score": -16.46,
+                "selfie_rank": 1,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              },
+              {
+                "id": "tr",
+                "score": 92.07,
+                "selfie_rank": 3,
+                "comparison_rank": 3,
+                "delta_perc": 0
+              },
+              {
+                "id": "va",
+                "score": -58.02,
+                "selfie_rank": 0,
+                "comparison_rank": 0,
+                "delta_perc": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
