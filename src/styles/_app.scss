@@ -17,9 +17,8 @@ section {
   div.wrap-input {
 
     label {
-      text-align: right;
+      min-width: 50px;
       display: inline-block;
-      width: 75px;
       margin-right: 10px;
     }
 
@@ -39,7 +38,7 @@ section {
 
   }
 
-  &#vis-1 {
+  &#vis-bxp {
 
     div.wrap-vis svg {
 
@@ -61,7 +60,27 @@ section {
 
   }
 
-  &#vis-2 {
+  &#vis-bxp-split {
+
+    div.wrap-vis svg {
+
+      rect {
+
+        &.outline {
+          stroke-width: 1;
+          fill-opacity: 0;
+          stroke: black;
+        }
+        &.fill {
+          fill: black;
+        }
+
+      }
+
+    }
+
+  }
+
 
     div.wrap-vis svg {
 

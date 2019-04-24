@@ -1,16 +1,18 @@
 
 import * as d3 from 'd3';
+import Thermostat from './components/Thermostat';
 
 import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
 
 const BXP_MIN = -2000,
       BXP_MAX = 2000;
 
-export default class Thermostat {
+export default class Bxp {
 
   constructor(selector) {
 
-    this.selector = selector;
+    this.selector   = selector;
+    this.thermostat = new Thermostat(`${this.selector} .wrap-vis svg`);
 
     this.initView();
     this.reset();
@@ -18,9 +20,6 @@ export default class Thermostat {
   }
 
   initView() {
-
-    this.d3Outline = d3.select(`${this.selector} .wrap-vis svg rect.outline`);
-    this.d3Fill    = d3.select(`${this.selector} .wrap-vis svg rect.fill`);
 
     this.$resetBtn = $(`${this.selector} .wrap-input button.reset`);
     this.$inputs   = $(`${this.selector} .wrap-input input`);
@@ -55,16 +54,7 @@ export default class Thermostat {
       .domain([ BXP_MIN, BXP_MAX ])
       .range([ 0, 1 ]);
 
-    const perc  = toPerc(val),
-          areaY = +this.d3Outline.attr('y'),
-          areaH = +this.d3Outline.attr('height'),
-          barH  = perc * areaH,
-          barY  = (areaY + areaH) - barH;
-
-    this.d3Fill
-      .attr('y', barY)
-      .attr('height', barH);
-
+    this.thermostat.update(toPerc(val));
     this.$inputs.val(val);
 
   }

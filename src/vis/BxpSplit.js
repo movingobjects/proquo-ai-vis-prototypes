@@ -1,16 +1,21 @@
 
 import * as d3 from 'd3';
+import ThermostatSplit from './components/ThermostatSplit';
 
 import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
 
 const SPLIT_MIN = -1000,
       SPLIT_MAX = 1000;
 
-export default class Split {
+export default class BxpSplit {
 
   constructor(selector) {
 
-    this.selector = selector;
+    this.selector   = selector;
+    this.thermostat = new ThermostatSplit(
+      `${selector} .wrap-vis svg rect.push`,
+      `${selector} .wrap-vis svg rect.pull`
+    );
 
     this.initView();
 
@@ -19,11 +24,6 @@ export default class Split {
   }
 
   initView() {
-
-    this.d3PushOutline = d3.select(`${this.selector} .wrap-vis svg rect.push.outline`);
-    this.d3PushFill    = d3.select(`${this.selector} .wrap-vis svg rect.push.fill`);
-    this.d3PullOutline = d3.select(`${this.selector} .wrap-vis svg rect.pull.outline`);
-    this.d3PullFill    = d3.select(`${this.selector} .wrap-vis svg rect.pull.fill`);
 
     this.$inputs       = $(`${this.selector} .wrap-input input`);
     this.$inputsPush   = $(`${this.selector} .wrap-input p.push input`);
@@ -73,16 +73,7 @@ export default class Split {
       .domain([ SPLIT_MIN, SPLIT_MAX ])
       .range([ 0, 1 ]);
 
-    const perc  = toPerc(val),
-          areaX = +this.d3PushOutline.attr('x'),
-          areaW = +this.d3PushOutline.attr('width'),
-          barW  = perc * areaW,
-          barX  = (areaX + areaW) - barW;
-
-    this.d3PushFill
-      .attr('x', barX)
-      .attr('width', barW);
-
+    this.thermostat.updateA(toPerc(val));
     this.$inputsPush.val(val);
 
   }
@@ -92,13 +83,7 @@ export default class Split {
       .domain([ SPLIT_MIN, SPLIT_MAX ])
       .range([ 0, 1 ]);
 
-    const perc  = toPerc(val),
-          areaW = +this.d3PullOutline.attr('width'),
-          barW  = perc * areaW;
-
-    this.d3PullFill
-      .attr('width', barW);
-
+    this.thermostat.updateB(toPerc(val));
     this.$inputsPull.val(val);
 
   }

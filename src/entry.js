@@ -1,13 +1,12 @@
 
 import style from './styles/style.scss';
 
-import Thermostat from './vis/Thermostat'
-import Split from './vis/Split'
-
+import Bxp from './vis/Bxp';
+import BxpSplit from './vis/BxpSplit';
 
 (function($) {
 
-  let visThermostat = new Thermostat('section#vis-1'),
-      visSplit      = new Split('section#vis-2');
+  let visBxp      = new Bxp('section#vis-bxp'),
+      visBxpSplit = new BxpSplit('section#vis-bxp-split');
 
 })(jQuery)
