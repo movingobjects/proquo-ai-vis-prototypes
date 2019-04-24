@@ -12,17 +12,52 @@
 
     <h2>ProQuo AI Visualization Prototypes</h2>
 
+    <section id="nav">
+      <ul>
+        <li><a href="#vis-1">Vis 1 - BXP</a></li>
+        <li><a href="#vis-2">Vis 2 - BXP Split</a></li>
+      </ul>
+    </section>
+
     <section id="vis-1">
 
-      <h3>Vis 1 - Thermostat</h3>
+      <h3>Vis 1 - BXP</h3>
 
-      <p>
-        <label>bXp:</label>
-        <input type="number" class="bxp-val" min="-2000" max="2000">
-        <input type="range" class="input-range" min="-2000" max="2000">
-      </p>
+      <div class="wrap-input">
+        <p>
+          <label>bXp:</label>
+          <input type="number">
+          <input type="range">
+        </p>
+      </div>
 
-      <div class="wrap-chart">
+      <div class="wrap-vis">
+        <svg>
+          <rect class="outline" />
+          <rect class="fill" />
+        </svg>
+      </div>
+
+    </section>
+
+    <section id="vis-2">
+
+      <h3>Vis 2 - BXP Split</h3>
+
+      <div class="wrap-input">
+        <p class="push">
+          <label>Push:</label>
+          <input type="number">
+          <input type="range">
+        </p>
+        <p class="pull">
+          <label>Pull:</label>
+          <input type="number">
+          <input type="range">
+        </p>
+      </div>
+
+      <div class="wrap-vis">
         <svg></svg>
       </div>
 

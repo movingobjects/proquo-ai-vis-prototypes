@@ -7,26 +7,30 @@ const BXP_MIN = -2000,
       BXP_MAX = 2000;
 
 const VIS_W = 500,
-      VIS_H = 500;
-
-const BAR_W        = 50,
-      BAR_H        = 300,
-      BAR_STROKE_W = 1;
+      VIS_H = 500,
+      BAR_W = 50,
+      BAR_H = 300;
 
 export default class Thermostat {
 
-  constructor() {
+  constructor(selector) {
 
-    this.initChart();
+    this.selector = selector;
+
+    this.initView();
     this.initInput();
 
-    this.updateBxp(this.dataBxp);
+    this.update(this.dataBxp);
 
   }
 
-  initChart() {
+  initView() {
 
-    this.d3chart = d3.select('section#vis-1 svg');
+    const selector    = `${this.selector} .wrap-vis svg`;
+
+    this.d3chart        = d3.select(`${selector}`);
+    this.d3chartOutline = d3.select(`${selector} rect.outline`);
+    this.d3chartFill    = d3.select(`${selector} rect.fill`);
 
     this.d3chart
       .attr('width', VIS_W)
@@ -35,31 +39,35 @@ export default class Thermostat {
     const barX = (VIS_W - BAR_W) / 2,
           barY = (VIS_H - BAR_H) / 2;
 
-    this.d3chart
-      .append('rect')
-        .attr('x', barX)
-        .attr('y', barY)
-        .attr('width', BAR_W)
-        .attr('height', BAR_H)
-        .attr('fill-opacity', 0)
-        .attr('stroke-width', BAR_STROKE_W)
-        .attr('stroke', 'black');
+    this.d3chartOutline
+      .attr('x', barX)
+      .attr('y', barY)
+      .attr('width', BAR_W)
+      .attr('height', BAR_H);
 
-    this.d3chartBar = this.d3chart
-      .append('rect')
-        .attr('x', barX + BAR_STROKE_W)
-        .attr('width', BAR_W - (BAR_STROKE_W * 2));
+    this.d3chartFill
+      .attr('x', barX)
+      .attr('width', BAR_W);
 
   }
   initInput() {
 
-    this.$inputRange  = $('section#vis-1 .input-range');
-    this.$inputBxpVal = $('section#vis-1 input.bxp-val');
+    const onInput = (e) => this.update($(e.target).val());
 
-    const onInput = (e) => this.updateBxp($(e.target).val());
+    const selector    = `${this.selector} .wrap-input`;
 
-    this.$inputRange.on('input', onInput);
-    this.$inputBxpVal.on('input', onInput);
+    this.$inputRange  = $(`${selector} input[type='range']`);
+    this.$inputBxpVal = $(`${selector} input[type='number']`);
+
+    this.$inputRange
+      .attr('min', BXP_MIN)
+      .attr('max', BXP_MAX)
+      .on('input', onInput);
+
+    this.$inputBxpVal
+      .attr('min', BXP_MIN)
+      .attr('max', BXP_MAX)
+      .on('input', onInput);
 
   }
 
@@ -71,17 +79,17 @@ export default class Thermostat {
 
   }
 
-  updateBxp(val) {
+  update(val) {
 
     const bxpToPerc = d3.scaleLinear()
       .domain([BXP_MIN, BXP_MAX])
       .range([0, 1]);
 
     const perc = bxpToPerc(val),
-          barH = perc * (BAR_H - (BAR_STROKE_W * 2)),
-          barY = ((BAR_H + VIS_H) / 2) - BAR_STROKE_W - barH;
+          barH = perc * BAR_H,
+          barY = ((BAR_H + VIS_H) / 2) - barH;
 
-    this.d3chartBar
+    this.d3chartFill
       .attr('y', barY)
       .attr('height', barH);
 

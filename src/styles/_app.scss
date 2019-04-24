@@ -1,6 +1,7 @@
 
 body {
   font: 15px sans-serif;
+  padding: 25px;
 }
 
 section {
@@ -13,17 +14,42 @@ section {
     border: 1px solid #ccc;
   }
 
+  div.wrap-input {
+
+    label {
+      text-align: right;
+      display: inline-block;
+      width: 75px;
+      margin-right: 10px;
+    }
+
+    input {
+      margin-right: 10px;
+      &[type="number"] {
+        width: 75px;
+      }
+      &[type="range"] {
+        width: 100px;
+      }
+    }
+
+    p + p {
+      margin-top: -10px;
+    }
+
+  }
+
   &#vis-1 {
 
-    svg.chart {
+    div.wrap-vis svg {
 
-      rect {
-        fill: green;
+      rect.outline {
+        stroke-width: 1;
+        fill-opacity: 0;
+        stroke: black;
       }
-      text {
+      rect.fill {
         fill: black;
-        font: 12px sans-serif;
-        text-anchor: end;
       }
 
     }
