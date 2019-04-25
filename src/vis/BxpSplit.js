@@ -17,13 +17,13 @@ export default class BxpSplit {
       `${selector} .wrap-vis svg rect.pull`
     );
 
-    this.initView();
+    this.initInputs();
 
     this.reset();
 
   }
 
-  initView() {
+  initInputs() {
 
     this.$inputs       = $(`${this.selector} .wrap-input input`);
     this.$inputsPush   = $(`${this.selector} .wrap-input p.push input`);

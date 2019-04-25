@@ -4,11 +4,16 @@ body {
   padding: 25px;
 }
 
-section {
-
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 50px;
+header {
+  padding-top: 25px;
+  border-top: 1px solid #ccc;
   margin-bottom: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  border-top: 1px solid #ccc;
+  padding-top: 25px;
 
   svg {
     border: 1px solid #ccc;
@@ -81,6 +86,24 @@ section {
 
   }
 
+  &#vis-bxp-split-competition {
+
+    div.wrap-input {
+      ul.brands {
+        list-style: none;
+        padding: 0;
+        display: flex;
+
+        li {
+          margin-right: 15px;
+          + li {
+            padding-left: 15px;
+            border-left: 1px solid #ccc;
+          }
+        }
+
+      }
+    }
 
     div.wrap-vis svg {
 

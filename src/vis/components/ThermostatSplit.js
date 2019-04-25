@@ -1,7 +1,7 @@
 
 import * as d3 from 'd3';
 
-export default class Split {
+export default class ThermostatSplit {
 
   constructor(selectorA, selectorB) {
 

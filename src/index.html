@@ -10,21 +10,24 @@
 
   <body>
 
-    <h2>ProQuo AI Visualization Prototypes</h2>
+    <header>
+      <h2>ProQuo AI Visualization Prototypes</h2>
 
-    <section id="nav">
-      <ol>
-        <li><a href="#vis-bxp">BXP</a></li>
-        <li><a href="#vis-bxp-split">BXP Split</a></li>
-        <li><a href="#vis-bxp-split-competition">BXP Split Competition</a></li>
-      </ol>
-    </section>
+      <nav>
+        <ol>
+          <li><a href="#vis-bxp">BXP</a></li>
+          <li><a href="#vis-bxp-split">BXP Split</a></li>
+          <li><a href="#vis-bxp-split-competition">BXP Split Competition</a></li>
+        </ol>
+      </nav>
+    </header>
 
     <section id="vis-bxp">
 
       <h3>BXP</h3>
 
       <div class="wrap-input">
+        <h4 class="brand-name">My Brand</h4>
         <p>
           <label>bXp:</label>
           <input type="number">
@@ -50,6 +53,7 @@
       <h3>BXP Split</h3>
 
       <div class="wrap-input">
+        <h4 class="brand-name">My Brand</h4>
         <p class="push">
           <label>Push:</label>
           <input type="number">
@@ -77,6 +81,59 @@
 
     </section>
 
+    <section id="vis-bxp-split-competition">
+
+      <h3>BXP Split Competition</h3>
+
+      <div class="wrap-input">
+
+        <ul class="brands">
+          <li class="brand-a">
+            <h4 class="brand-name">My Brand</h4>
+            <p class="push"><label>Push:</label> <input type="number"> <input type="range"></p>
+            <p class="pull"><label>Pull:</label> <input type="number"> <input type="range"></p>
+          </li>
+
+          <li class="brand-b">
+            <h4 class="brand-name">Brand B</h4>
+            <p class="push"><label>Push:</label> <input type="number"> <input type="range"></p>
+            <p class="pull"><label>Pull:</label> <input type="number"> <input type="range"></p>
+          </li>
+
+          <li class="brand-c">
+            <h4 class="brand-name">Brand C</h4>
+            <p class="push"><label>Push:</label> <input type="number"> <input type="range"></p>
+            <p class="pull"><label>Pull:</label> <input type="number"> <input type="range"></p>
+          </li>
+        </ul>
+
+        <p>
+          <label>Reset:</label>
+          <button class="reset">Revert changes</button>
+        </p>
+
+      </div>
+
+      <div class="wrap-vis">
+        <svg width="750" height="500">
+          <g class="brand-a">
+            <rect class="push outline" x="95" y="125" width="275" height="50" />
+            <rect class="push fill"    x="95" y="125" width="275" height="50" />
+            <rect class="pull outline" x="380" y="125" width="275" height="50" />
+            <rect class="pull fill"    x="380" y="125" width="275" height="50" />
+          </g>
+          <g class="brand-b">
+            <rect class="push outline" x="95" y="225" width="275" height="50" />
+            <rect class="push fill"    x="95" y="225" width="275" height="50" />
+            <rect class="pull outline" x="380" y="225" width="275" height="50" />
+            <rect class="pull fill"    x="380" y="225" width="275" height="50" />
+          </g>
+          <g class="brand-c">
+            <rect class="push outline" x="95" y="325" width="275" height="50" />
+            <rect class="push fill"    x="95" y="325" width="275" height="50" />
+            <rect class="pull outline" x="380" y="325" width="275" height="50" />
+            <rect class="pull fill"    x="380" y="325" width="275" height="50" />
+          </g>
         </svg>
       </div>
 

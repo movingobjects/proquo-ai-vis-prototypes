@@ -14,12 +14,12 @@ export default class Bxp {
     this.selector   = selector;
     this.thermostat = new Thermostat(`${this.selector} .wrap-vis svg`);
 
-    this.initView();
+    this.initInputs();
     this.reset();
 
   }
 
-  initView() {
+  initInputs() {
 
     this.$resetBtn = $(`${this.selector} .wrap-input button.reset`);
     this.$inputs   = $(`${this.selector} .wrap-input input`);
