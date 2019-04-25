@@ -92,11 +92,10 @@ export default class BxpSplitVsCompetition {
       thermostat.updateB(perc);
     }
 
-    this.updateInput(brandIndex, isA ? 'push' : 'pull', val);
+    this.updateInputs(brandIndex, isA ? 'push' : 'pull', val);
 
   }
-
-  updateInput(brandIndex, splitId, val) {
+  updateInputs(brandIndex, splitId, val) {
 
     const $inputs = $(`${this.selector} .wrap-input ul.brands li:nth-child(${brandIndex + 1}) p.${splitId} input`);
 

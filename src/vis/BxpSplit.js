@@ -25,25 +25,20 @@ export default class BxpSplit {
 
   initInputs() {
 
-    this.$inputs       = $(`${this.selector} .wrap-input input`);
-    this.$inputsPush   = $(`${this.selector} .wrap-input p.push input`);
-    this.$inputsPull   = $(`${this.selector} .wrap-input p.pull input`);
-    this.$resetBtn     = $(`${this.selector} .wrap-input button.reset`);
+    this.$inputs   = $(`${this.selector} .wrap-input input`);
+    this.$resetBtn = $(`${this.selector} .wrap-input button.reset`);
 
     this.$inputs
       .attr('min', SPLIT_MIN)
-      .attr('max', SPLIT_MAX);
-
-    this.$inputsPush
+      .attr('max', SPLIT_MAX)
       .on('input', ({ target }) => {
-        let val = $(target).val();
-        this.updatePush(val)
-      });
 
-    this.$inputsPull
-      .on('input', ({ target }) => {
-        let val = $(target).val();
-        this.updatePull(val)
+        let $trgt = $(target),
+            isA   = $trgt.closest('p').hasClass('push'),
+            val   = $trgt.val();
+
+        this.update(isA, val)
+
       });
 
     this.$resetBtn
@@ -53,8 +48,8 @@ export default class BxpSplit {
 
   reset() {
 
-    this.updatePush(this.getDataSplit('push'));
-    this.updatePull(this.getDataSplit('pull'));
+    this.update(true, this.getDataSplit('push'));
+    this.update(false, this.getDataSplit('pull'));
 
   }
 
@@ -67,24 +62,28 @@ export default class BxpSplit {
 
   }
 
-  updatePush(val) {
+  update(isA, val) {
 
     const toPerc = d3.scaleLinear()
       .domain([ SPLIT_MIN, SPLIT_MAX ])
       .range([ 0, 1 ]);
 
-    this.thermostat.updateA(toPerc(val));
-    this.$inputsPush.val(val);
+    const perc = toPerc(val);
+
+    if (isA) {
+      this.thermostat.updateA(perc);
+    } else {
+      this.thermostat.updateB(perc);
+    }
+
+    this.updateInputs(isA ? 'push' : 'pull', val);
 
   }
-  updatePull(val) {
+  updateInputs(splitId, val) {
 
-    const toPerc = d3.scaleLinear()
-      .domain([ SPLIT_MIN, SPLIT_MAX ])
-      .range([ 0, 1 ]);
+    const $inputs = $(`${this.selector} .wrap-input p.${splitId} input`);
 
-    this.thermostat.updateB(toPerc(val));
-    this.$inputsPull.val(val);
+    $inputs.val(val);
 
   }
 
