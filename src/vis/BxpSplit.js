@@ -2,20 +2,23 @@
 import * as d3 from 'd3';
 import ThermostatSplit from './components/ThermostatSplit';
 
-import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
-
 const SPLIT_MIN = -1000,
       SPLIT_MAX = 1000;
 
 export default class BxpSplit {
 
-  constructor(selector) {
+  constructor(selector, data) {
 
     this.selector   = selector;
+    this.data       = data;
+
     this.thermostat = new ThermostatSplit(
       `${selector} .wrap-vis svg rect.push`,
       `${selector} .wrap-vis svg rect.pull`
     );
+
+    this._bxpPush = 0;
+    this._bxpPull = 0;
 
     this.initInputs();
 
@@ -33,11 +36,15 @@ export default class BxpSplit {
       .attr('max', SPLIT_MAX)
       .on('input', ({ target }) => {
 
-        let $trgt = $(target),
-            isA   = $trgt.closest('p').hasClass('push'),
+        let $trgt  = $(target),
+            isPush = $trgt.closest('p').hasClass('push'),
             val   = $trgt.val();
 
-        this.update(isA, val)
+        if (isPush) {
+          this.bxpPush = val;
+        } else {
+          this.bxpPull = val;
+        }
 
       });
 
@@ -48,42 +55,43 @@ export default class BxpSplit {
 
   reset() {
 
-    this.update(true, this.getDataSplit('push'));
-    this.update(false, this.getDataSplit('pull'));
+    const getSplit = (id) => {
+      return (
+        this.data.client
+          .bxpElements.find((elem) => !elem.has_delta)
+          .ppElements.find((elem) => elem.id === id)
+          .score
+      );
+    }
+
+    this.bxpPush = getSplit('push');
+    this.bxpPull = getSplit('pull');
 
   }
 
-  getDataSplit(id) {
-
-    const bxpElem   = SAMPLE_DATA_SUMMARY.client.bxpElements.find((elem) => !elem.has_delta),
-          splitElem = bxpElem ? bxpElem.ppElements.find((elem) => elem.id === id) : null;
-
-    return splitElem ? splitElem.score : 0;
-
+  set bxpPush(val) {
+    this._bxpPush = val;
+    this.update();
+  }
+  set bxpPull(val) {
+    this._bxpPull = val;
+    this.update();
   }
 
-  update(isA, val) {
+  update() {
 
     const toPerc = d3.scaleLinear()
       .domain([ SPLIT_MIN, SPLIT_MAX ])
       .range([ 0, 1 ]);
 
-    const perc = toPerc(val);
+    this.thermostat.updateA(toPerc(this._bxpPush));
+    this.thermostat.updateB(toPerc(this._bxpPull));
 
-    if (isA) {
-      this.thermostat.updateA(perc);
-    } else {
-      this.thermostat.updateB(perc);
-    }
+    const $inputsPush = $(`${this.selector} .wrap-input p.push input`),
+          $inputsPull = $(`${this.selector} .wrap-input p.pull input`);
 
-    this.updateInputs(isA ? 'push' : 'pull', val);
-
-  }
-  updateInputs(splitId, val) {
-
-    const $inputs = $(`${this.selector} .wrap-input p.${splitId} input`);
-
-    $inputs.val(val);
+    $inputsPush.val(this._bxpPush);
+    $inputsPull.val(this._bxpPull);
 
   }
 

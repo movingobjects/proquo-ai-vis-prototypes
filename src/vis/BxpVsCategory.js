@@ -2,18 +2,19 @@
 import * as d3 from 'd3';
 import Thermostat from './components/Thermostat';
 
-import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
-
 const BXP_MIN = -2000,
       BXP_MAX = 2000;
 
 export default class BxpVsCategory {
 
-  constructor(selector) {
+  constructor(selector, data) {
 
     this.selector   = selector;
-
+    this.data       = data;
     this.thermostat = new Thermostat(`${selector} .wrap-vis svg g`);
+
+    this._bxp         = 0;
+    this._bxpCategory = 0;
 
     this.initInputs();
     this.reset();
@@ -38,9 +39,9 @@ export default class BxpVsCategory {
             val   = $trgt.val();
 
         if (index === 0) {
-          this.setBxp(val);
+          this.bxp = val;
         } else {
-          this.setCategoryBxp(val);
+          this.categoryBxp = val;
         }
 
       });
@@ -49,42 +50,39 @@ export default class BxpVsCategory {
 
   reset() {
 
-    this.setBxp(this.getDataBxp(0));
-    this.setCategoryBxp(this.getDataBxp(1));
+    const getDataBxp = (client) => client.bxpElements.find((elem) => !elem.has_delta).score;
+
+    this.bxp         = getDataBxp(this.data.client);
+    this.categoryBxp = getDataBxp(this.data.category);
 
   }
 
-  getDataBxp(index) {
+  set bxp(val) {
 
-    const data    = SAMPLE_DATA_SUMMARY,
-          client  = (index === 0) ? data.client : data.category,
-          bxpElem = client.bxpElements.find((elem) => !elem.has_delta);
+    this._bxp = val;
+    this.update();
 
-    return bxpElem ? bxpElem.score : 0;
+  }
+  set categoryBxp(val) {
+
+    this._categoryBxp = val;
+    this.update();
 
   }
 
-  setBxp(val) {
+  update() {
 
     const toPerc = d3.scaleLinear()
       .domain([ BXP_MIN, BXP_MAX ])
       .range([ 0, 1 ]);
 
-    this.thermostat.update(toPerc(val));
+    this.thermostat.update(toPerc(this._bxp));
 
-    const $inputs = $(`${this.selector} .wrap-input ul.brands li:nth-child(1) input`);
-    $inputs.val(val);
+    const $inputsBxp         = $(`${this.selector} .wrap-input ul.brands li:nth-child(1) input`),
+          $inputsCategoryBxp = $(`${this.selector} .wrap-input ul.brands li:nth-child(2) input`);
 
-  }
-  setCategoryBxp(val) {
-
-    const toPerc = d3.scaleLinear()
-      .domain([ BXP_MIN, BXP_MAX ])
-      .range([ 0, 1 ]);
-
-      const $inputs = $(`${this.selector} .wrap-input ul.brands li:nth-child(2) input`);
-      $inputs.val(val);
-
+    $inputsBxp.val(this._bxp);
+    $inputsCategoryBxp.val(this._categoryBxp);
   }
 
 }
