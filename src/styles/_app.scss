@@ -43,28 +43,7 @@ section {
 
   }
 
-  &#vis-bxp {
-
-    div.wrap-vis svg {
-
-      rect {
-
-        &.outline {
-          stroke-width: 1;
-          fill-opacity: 0;
-          stroke: black;
-        }
-
-        &.fill {
-          fill: black;
-        }
-
-      }
-
-    }
-
-  }
-
+  &#vis-bxp,
   &#vis-bxp-split {
 
     div.wrap-vis svg {
@@ -86,6 +65,7 @@ section {
 
   }
 
+  &#vis-bxp-competition,
   &#vis-bxp-split-competition {
 
     div.wrap-input {
