@@ -7,7 +7,7 @@ import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
 const BXP_MIN = -2000,
       BXP_MAX = 2000;
 
-export default class BxpCompetition {
+export default class BxpVsCompetition {
 
   constructor(selector) {
 

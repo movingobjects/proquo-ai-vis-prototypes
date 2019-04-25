@@ -7,7 +7,7 @@ import SAMPLE_DATA_SUMMARY from '../data/sample_SubscriptSummary.json';
 const SPLIT_MIN = -1000,
       SPLIT_MAX = 1000;
 
-export default class BxpSplitCompetition {
+export default class BxpSplitVsCompetition {
 
   constructor(selector) {
 

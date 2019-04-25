@@ -2,17 +2,17 @@
 import style from './styles/style.scss';
 
 import Bxp from './vis/Bxp';
-import BxpCompetition from './vis/BxpCompetition';
+import BxpVsCompetition from './vis/BxpVsCompetition';
 import BxpSplit from './vis/BxpSplit';
-import BxpSplitCompetition from './vis/BxpSplitCompetition';
+import BxpSplitVsCompetition from './vis/BxpSplitVsCompetition';
 
 (function($) {
 
   let vis = [
     new Bxp('section#vis-bxp'),
-    new BxpCompetition('section#vis-bxp-competition'),
+    new BxpVsCompetition('section#vis-bxp-vs-competition'),
     new BxpSplit('section#vis-bxp-split'),
-    new BxpSplitCompetition('section#vis-bxp-split-competition')
+    new BxpSplitVsCompetition('section#vis-bxp-split-vs-competition')
   ];
 
 })(jQuery)
