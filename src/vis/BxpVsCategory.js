@@ -12,6 +12,7 @@ export default class BxpVsCategory {
     this.selector   = selector;
     this.data       = data;
     this.thermostat = new Thermostat(`${selector} .wrap-vis svg g`);
+    this.thermostat.addLine('category', `${selector} .wrap-vis svg line`);
 
     this._bxp         = 0;
     this._bxpCategory = 0;
@@ -65,7 +66,7 @@ export default class BxpVsCategory {
   }
   set categoryBxp(val) {
 
-    this._categoryBxp = val;
+    this._bxpCategory = val;
     this.update();
 
   }
@@ -77,12 +78,14 @@ export default class BxpVsCategory {
       .range([ 0, 1 ]);
 
     this.thermostat.update(toPerc(this._bxp));
+    this.thermostat.updateLine('category', toPerc(this._bxpCategory));
 
     const $inputsBxp         = $(`${this.selector} .wrap-input ul.brands li:nth-child(1) input`),
           $inputsCategoryBxp = $(`${this.selector} .wrap-input ul.brands li:nth-child(2) input`);
 
     $inputsBxp.val(this._bxp);
-    $inputsCategoryBxp.val(this._categoryBxp);
+    $inputsCategoryBxp.val(this._bxpCategory);
+
   }
 
 }
