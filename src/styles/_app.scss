@@ -33,7 +33,7 @@ section {
         width: 75px;
       }
       &[type="range"] {
-        width: 100px;
+        width: 75px;
       }
     }
 
@@ -41,67 +41,39 @@ section {
       margin-top: -5px;
     }
 
-  }
+    ul.brands {
+      list-style: none;
+      padding: 0;
+      display: flex;
 
-  &#vis-bxp,
-  &#vis-bxp-split {
-
-    div.wrap-vis svg {
-
-      rect {
-
-        &.outline {
-          stroke-width: 1;
-          fill-opacity: 0;
-          stroke: black;
+      li {
+        margin-right: 15px;
+        + li {
+          padding-left: 15px;
+          border-left: 1px solid #ccc;
         }
-        &.fill {
-          fill: black;
-        }
-
       }
 
     }
 
   }
 
-  &#vis-bxp-vs-competition,
-  &#vis-bxp-split-vs-competition {
+  div.wrap-vis svg rect {
 
-    div.wrap-input {
-      ul.brands {
-        list-style: none;
-        padding: 0;
-        display: flex;
-
-        li {
-          margin-right: 15px;
-          + li {
-            padding-left: 15px;
-            border-left: 1px solid #ccc;
-          }
-        }
-
-      }
+    &.outline {
+      stroke-width: 1;
+      fill-opacity: 0;
+      stroke: black;
+    }
+    &.fill {
+      fill: black;
     }
 
-    div.wrap-vis svg {
+  }
 
-      rect {
-
-        &.outline {
-          stroke-width: 1;
-          fill-opacity: 0;
-          stroke: black;
-        }
-        &.fill {
-          fill: black;
-        }
-
-      }
-
-    }
-
+  div.wrap-vis svg line {
+    stroke: red;
+    stroke-width: 3;
   }
 
 }

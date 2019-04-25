@@ -15,16 +15,16 @@ export default class BxpSplitVsCompetition {
 
     this.thermostats = [
       new ThermostatSplit(
-        `${selector} .wrap-vis svg g.brand-a rect.push`,
-        `${selector} .wrap-vis svg g.brand-a rect.pull`
+        `${selector} .wrap-vis svg g:nth-child(1) rect.push`,
+        `${selector} .wrap-vis svg g:nth-child(1) rect.pull`
       ),
       new ThermostatSplit(
-        `${selector} .wrap-vis svg g.brand-b rect.push`,
-        `${selector} .wrap-vis svg g.brand-b rect.pull`
+        `${selector} .wrap-vis svg g:nth-child(2) rect.push`,
+        `${selector} .wrap-vis svg g:nth-child(2) rect.pull`
       ),
       new ThermostatSplit(
-        `${selector} .wrap-vis svg g.brand-c rect.push`,
-        `${selector} .wrap-vis svg g.brand-c rect.pull`
+        `${selector} .wrap-vis svg g:nth-child(3) rect.push`,
+        `${selector} .wrap-vis svg g:nth-child(3) rect.pull`
       )
     ];
 

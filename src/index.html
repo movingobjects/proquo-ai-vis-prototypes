@@ -16,6 +16,7 @@
       <nav>
         <ol>
           <li><a href="#vis-bxp">BXP</a></li>
+          <li><a href="#vis-bxp-vs-category">BXP vs Category</a></li>
           <li><a href="#vis-bxp-vs-competition">BXP vs Competition</a></li>
           <li><a href="#vis-bxp-split">BXP Split</a></li>
           <li><a href="#vis-bxp-split-vs-competition">BXP Split vs Competition</a></li>
@@ -43,6 +44,40 @@
 
     </section>
 
+    <section id="vis-bxp-vs-category">
+
+      <h3>BXP vs Category</h3>
+
+      <div class="wrap-input">
+
+        <ul class="brands">
+          <li>
+            <h4 class="brand-name">My Brand</h4>
+            <p><label>bXp:</label><input type="number"><input type="range"></p>
+          </li>
+
+          <li>
+            <h4 class="brand-name">Category</h4>
+            <p><label>bXp:</label><input type="number"><input type="range"></p>
+          </li>
+        </ul>
+
+        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+
+      </div>
+
+      <div class="wrap-vis">
+        <svg width="750" height="500">
+          <g>
+            <rect class="outline" x="350" y="75" width="50" height="350" />
+            <rect class="fill"    x="350" y="75" width="50" height="350" />
+          </g>
+          <line x1="325" y1="75" x2="400" y2="75" />
+        </svg>
+      </div>
+
+    </section>
+
     <section id="vis-bxp-vs-competition">
 
       <h3>BXP vs Competition</h3>
@@ -50,17 +85,17 @@
       <div class="wrap-input">
 
         <ul class="brands">
-          <li class="brand-a">
+          <li>
             <h4 class="brand-name">My Brand</h4>
             <p><label>bXp:</label><input type="number"><input type="range"></p>
           </li>
 
-          <li class="brand-b">
+          <li>
             <h4 class="brand-name">Brand B</h4>
             <p><label>bXp:</label><input type="number"><input type="range"></p>
           </li>
 
-          <li class="brand-c">
+          <li>
             <h4 class="brand-name">Brand C</h4>
             <p><label>bXp:</label><input type="number"><input type="range"></p>
           </li>
@@ -118,19 +153,19 @@
       <div class="wrap-input">
 
         <ul class="brands">
-          <li class="brand-a">
+          <li>
             <h4 class="brand-name">My Brand</h4>
             <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
             <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
           </li>
 
-          <li class="brand-b">
+          <li>
             <h4 class="brand-name">Brand B</h4>
             <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
             <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
           </li>
 
-          <li class="brand-c">
+          <li>
             <h4 class="brand-name">Brand C</h4>
             <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
             <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
