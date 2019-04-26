@@ -42,10 +42,10 @@ export default class DriverCircle {
 
     const toColor = (perc) => {
 
-      const COLOR_LOW     = '#A13023',
-            COLOR_MID     = '#7F7F7F',
-            COLOR_HIGH    = '#D9D9D9',
-            COLOR_HIGHEST = '#67AA64';
+      const COLOR_LOW     = '#DF6762',
+            COLOR_MID     = '#F7E0E0',
+            COLOR_HIGH    = '#D4EBDC',
+            COLOR_HIGHEST = '#489D53';
 
       if (perc < 0.25) return COLOR_LOW;
       else if (perc < 0.5) return COLOR_MID;
