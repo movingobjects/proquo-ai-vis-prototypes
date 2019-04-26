@@ -19,27 +19,29 @@ export default class Vis16Drivers {
     this.selector = selector;
     this.data     = data;
     this.values   = { };
+    this.circles  = this.initCircles();
 
-    this.initVis();
     this.initInputs();
 
     this.reset();
 
   }
 
-  initVis() {
+  initCircles() {
 
-    this.circles = { };
+    const selector = `${this.selector} .wrap-vis svg g`,
+          circles = { }
 
     DRIVERS.forEach((quad, qi) => quad.forEach((id, di) => {
 
-      let selector = `${this.selector} .wrap-vis svg g`,
-          col      = (di % 2) + (2 * (qi % 2)),
-          row      = Math.floor(di / 2) + (2 * Math.floor(qi / 2));
+      let col = (di % 2) + (2 * (qi % 2)),
+          row = Math.floor(di / 2) + (2 * Math.floor(qi / 2));
 
-      this.circles[id] = new DriverCircle(id, selector, col, row);
+      circles[id] = new DriverCircle(id, selector, col, row);
 
     }));
+
+    return circles;
 
   }
   initInputs() {
@@ -48,7 +50,7 @@ export default class Vis16Drivers {
     this.$resetBtn
       .on('click', () => this.reset());
 
-    this.$inputs = $(`${this.selector} .wrap-input input`);
+    this.$inputs = $(`${this.selector} .wrap-input ul.drivers input`);
     this.$inputs
       .attr('min', SCORE_MIN)
       .attr('max', SCORE_MAX)

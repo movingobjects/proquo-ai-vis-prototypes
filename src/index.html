@@ -18,7 +18,7 @@
         <h4>BXP</h4>
         <ul>
           <li><a href="#vis-bxp">BXP</a></li>
-          <li><a href="#vis-bxp-vs-categ">BXP (vs Category)</a></li>
+          <li><a href="#vis-bxp-vs-categ-avg">BXP (vs Category Average)</a></li>
           <li><a href="#vis-bxp-vs-comp">BXP (vs Competition)</a></li>
         </ul>
 
@@ -32,6 +32,7 @@
         <ul>
           <li><a href="#vis-16-drivers">16 Drivers</a></li>
           <li><a href="#vis-16-drivers-by-importance">16 Drivers (by Importance)</a></li>
+          <li><a href="#vis-16-drivers-vs-categ-avg">16 Drivers (vs Category Average)</a></li>
         </ul>
 
       </nav>
@@ -44,48 +45,48 @@
 
       <div class="wrap-input">
         <h4 class="brand-name">My Brand</h4>
-        <p><label>bXp:</label><input type="number"><input type="range"></p>
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>bXp</label><input type="number"><input type="range"></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
       </div>
 
       <div class="wrap-vis">
         <svg width="750" height="500">
           <g>
-            <rect class="outline" x="350" y="75" width="50" height="350" />
             <rect class="fill"    x="350" y="75" width="50" height="350" />
+            <rect class="outline" x="350" y="75" width="50" height="350" />
           </g>
         </svg>
       </div>
 
     </section>
 
-    <section id="vis-bxp-vs-categ">
+    <section id="vis-bxp-vs-categ-avg">
 
-      <h3>BXP (vs Category)</h3>
+      <h3>BXP (vs Category Average)</h3>
 
       <div class="wrap-input">
 
         <ul class="brands">
           <li>
             <h4 class="brand-name">My Brand</h4>
-            <p><label>bXp:</label><input type="number"><input type="range"></p>
+            <p><label>bXp</label><input type="number"><input type="range"></p>
           </li>
 
           <li>
-            <h4 class="brand-name">Category</h4>
-            <p><label>bXp:</label><input type="number"><input type="range"></p>
+            <h4 class="brand-name">Category Avg</h4>
+            <p><label>bXp</label><input type="number"><input type="range"></p>
           </li>
         </ul>
 
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
 
       </div>
 
       <div class="wrap-vis">
         <svg width="750" height="500">
           <g>
-            <rect class="outline" x="350" y="75" width="50" height="350" />
             <rect class="fill"    x="350" y="75" width="50" height="350" />
+            <rect class="outline" x="350" y="75" width="50" height="350" />
           </g>
           <line x1="325" y1="75" x2="425" y2="75" />
         </svg>
@@ -102,37 +103,37 @@
         <ul class="brands">
           <li>
             <h4 class="brand-name">My Brand</h4>
-            <p><label>bXp:</label><input type="number"><input type="range"></p>
+            <p><label>bXp</label><input type="number"><input type="range"></p>
           </li>
 
           <li>
             <h4 class="brand-name">Brand B</h4>
-            <p><label>bXp:</label><input type="number"><input type="range"></p>
+            <p><label>bXp</label><input type="number"><input type="range"></p>
           </li>
 
           <li>
             <h4 class="brand-name">Brand C</h4>
-            <p><label>bXp:</label><input type="number"><input type="range"></p>
+            <p><label>bXp</label><input type="number"><input type="range"></p>
           </li>
         </ul>
 
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
 
       </div>
 
       <div class="wrap-vis">
         <svg width="750" height="500">
           <g>
-            <rect class="outline" x="200" y="75" width="50" height="350" />
             <rect class="fill"    x="200" y="75" width="50" height="350" />
+            <rect class="outline" x="200" y="75" width="50" height="350" />
           </g>
           <g>
-            <rect class="outline" x="350" y="75" width="50" height="350" />
             <rect class="fill"    x="350" y="75" width="50" height="350" />
+            <rect class="outline" x="350" y="75" width="50" height="350" />
           </g>
           <g>
-            <rect class="outline" x="500" y="75" width="50" height="350" />
             <rect class="fill"    x="500" y="75" width="50" height="350" />
+            <rect class="outline" x="500" y="75" width="50" height="350" />
           </g>
         </svg>
       </div>
@@ -145,17 +146,17 @@
 
       <div class="wrap-input">
         <h4 class="brand-name">My Brand</h4>
-        <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
-        <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+        <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
       </div>
 
       <div class="wrap-vis">
         <svg width="750" height="500">
-          <rect class="push outline" x="95" y="225" width="275" height="50" />
           <rect class="push fill"    x="95" y="225" width="275" height="50" />
-          <rect class="pull outline" x="380" y="225" width="275" height="50" />
+          <rect class="push outline" x="95" y="225" width="275" height="50" />
           <rect class="pull fill"    x="380" y="225" width="275" height="50" />
+          <rect class="pull outline" x="380" y="225" width="275" height="50" />
         </svg>
       </div>
 
@@ -170,46 +171,46 @@
         <ul class="brands">
           <li>
             <h4 class="brand-name">My Brand</h4>
-            <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
-            <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
+            <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+            <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
           </li>
 
           <li>
             <h4 class="brand-name">Brand B</h4>
-            <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
-            <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
+            <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+            <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
           </li>
 
           <li>
             <h4 class="brand-name">Brand C</h4>
-            <p class="push"><label>Push:</label><input type="number"><input type="range"></p>
-            <p class="pull"><label>Pull:</label><input type="number"><input type="range"></p>
+            <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+            <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
           </li>
         </ul>
 
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
 
       </div>
 
       <div class="wrap-vis">
         <svg width="750" height="500">
           <g class="brand-a">
-            <rect class="push outline" x="95" y="125" width="275" height="50" />
             <rect class="push fill"    x="95" y="125" width="275" height="50" />
-            <rect class="pull outline" x="380" y="125" width="275" height="50" />
+            <rect class="push outline" x="95" y="125" width="275" height="50" />
             <rect class="pull fill"    x="380" y="125" width="275" height="50" />
+            <rect class="pull outline" x="380" y="125" width="275" height="50" />
           </g>
           <g class="brand-b">
-            <rect class="push outline" x="95" y="225" width="275" height="50" />
             <rect class="push fill"    x="95" y="225" width="275" height="50" />
-            <rect class="pull outline" x="380" y="225" width="275" height="50" />
+            <rect class="push outline" x="95" y="225" width="275" height="50" />
             <rect class="pull fill"    x="380" y="225" width="275" height="50" />
+            <rect class="pull outline" x="380" y="225" width="275" height="50" />
           </g>
           <g class="brand-c">
-            <rect class="push outline" x="95" y="325" width="275" height="50" />
             <rect class="push fill"    x="95" y="325" width="275" height="50" />
-            <rect class="pull outline" x="380" y="325" width="275" height="50" />
+            <rect class="push outline" x="95" y="325" width="275" height="50" />
             <rect class="pull fill"    x="380" y="325" width="275" height="50" />
+            <rect class="pull outline" x="380" y="325" width="275" height="50" />
           </g>
         </svg>
       </div>
@@ -241,7 +242,7 @@
           <li class="va"><label>va</label> <input type="number"> <input type="range"></li>
         </ul>
 
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
 
       </div>
 
@@ -278,7 +279,7 @@
 
       <div class="wrap-input">
 
-        <table class="drivers-by-importance">
+        <table class="drivers">
           <tr class="as">
             <td class="id">as</td>
             <td class="score">score <input type="number"> <input type="range"></td>
@@ -361,7 +362,7 @@
           </tr>
         </table>
 
-        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
 
       </div>
 
@@ -387,6 +388,125 @@
           <g class="in"><circle /><text /></g>
           <g class="tr"><circle /><text /></g>
           <g class="va"><circle /><text /></g>
+        </svg>
+      </div>
+
+    </section>
+
+    <section id="vis-16-drivers-vs-categ-avg">
+
+      <h3>16 Drivers (vs Category Average)</h3>
+
+      <div class="wrap-input">
+
+        <table class="drivers">
+          <tr class="as">
+            <td class="id">as</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="at">
+            <td class="id">at</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="di">
+            <td class="id">di</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="em">
+            <td class="id">em</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="mo">
+            <td class="id">mo</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="pe">
+            <td class="id">pe</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="pu">
+            <td class="id">pu</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="rl">
+            <td class="id">rl</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="aw">
+            <td class="id">aw</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="co">
+            <td class="id">co</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="ea">
+            <td class="id">ea</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="in">
+            <td class="id">in</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="po">
+            <td class="id">po</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="re">
+            <td class="id">re</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="tr">
+            <td class="id">tr</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="va">
+            <td class="id">va</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="categ-avg">category avg <input type="number"> <input type="range"></td>
+          </tr>
+        </table>
+
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
+
+      </div>
+
+      <div class="wrap-vis compare-drivers">
+        <svg width="750" height="500">
+          <g class="as"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="at"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="mo"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="pe"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="di"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="em"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="pu"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="rl"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="aw"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="co"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="po"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="re"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="ea"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="in"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="tr"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="va"><rect class="fill" width="20" height="300" y="100" /><rect class="outline" width="20" height="300" y="100" /><text /></g>
+          <g class="avg">
+            <line x1="75" y1="250" x2="675" y2="250" />
+          </g>
         </svg>
       </div>
 

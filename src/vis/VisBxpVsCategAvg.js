@@ -5,7 +5,7 @@ import Thermostat from './components/Thermostat';
 const BXP_MIN = -2000,
       BXP_MAX = 2000;
 
-export default class VisBxpVsCateg {
+export default class VisBxpVsCategAvg {
 
   constructor(selector, data) {
 

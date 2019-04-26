@@ -22,27 +22,29 @@ export default class Vis16DriversByImportance {
     this.selector = selector;
     this.data     = data;
     this.values   = { };
+    this.circles  = this.initCircles();
 
-    this.initVis();
     this.initInputs();
 
     this.reset();
 
   }
 
-  initVis() {
+  initCircles() {
 
-    this.circles = { };
+    const selector = `${this.selector} .wrap-vis svg g`,
+          circles = { }
 
     DRIVERS.forEach((quad, qi) => quad.forEach((id, di) => {
 
-      let selector = `${this.selector} .wrap-vis svg g`,
-          col      = (di % 2) + (2 * (qi % 2)),
-          row      = Math.floor(di / 2) + (2 * Math.floor(qi / 2));
+      let col = (di % 2) + (2 * (qi % 2)),
+          row = Math.floor(di / 2) + (2 * Math.floor(qi / 2));
 
-      this.circles[id] = new DriverCircle(id, selector, col, row);
+      circles[id] = new DriverCircle(id, selector, col, row);
 
     }));
+
+    return circles;
 
   }
   initInputs() {
@@ -51,8 +53,8 @@ export default class Vis16DriversByImportance {
     this.$resetBtn
       .on('click', () => this.reset());
 
-    this.$inputsScore      = $(`${this.selector} .wrap-input table.drivers-by-importance td.score input`),
-    this.$inputsImportance = $(`${this.selector} .wrap-input table.drivers-by-importance td.importance input`);
+    this.$inputsScore      = $(`${this.selector} .wrap-input table.drivers td.score input`),
+    this.$inputsImportance = $(`${this.selector} .wrap-input table.drivers td.importance input`);
 
     this.$inputsScore
       .attr('min', SCORE_MIN)
@@ -130,8 +132,8 @@ export default class Vis16DriversByImportance {
         circle.updateColor(i / 3);
         circle.updateSize((importance + 1) / 4);
 
-        let $inputsScore      = $(`${this.selector} .wrap-input table.drivers-by-importance tr.${id} td.score input`),
-            $inputsImportance = $(`${this.selector} .wrap-input table.drivers-by-importance tr.${id} td.importance input`);
+        let $inputsScore      = $(`${this.selector} .wrap-input table.drivers tr.${id} td.score input`),
+            $inputsImportance = $(`${this.selector} .wrap-input table.drivers tr.${id} td.importance input`);
 
         $inputsScore.val(score);
         $inputsImportance.val(importance);
