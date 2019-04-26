@@ -15,14 +15,25 @@
       <h2>ProQuo AI Visualization Prototypes</h2>
 
       <nav>
-        <ol>
+        <h4>BXP</h4>
+        <ul>
           <li><a href="#vis-bxp">BXP</a></li>
-          <li><a href="#vis-bxp-vs-categ">BXP vs Category</a></li>
-          <li><a href="#vis-bxp-vs-comp">BXP vs Competition</a></li>
+          <li><a href="#vis-bxp-vs-categ">BXP (vs Category)</a></li>
+          <li><a href="#vis-bxp-vs-comp">BXP (vs Competition)</a></li>
+        </ul>
+
+        <h4>BXP Split</h4>
+        <ul>
           <li><a href="#vis-bxp-split">BXP Split</a></li>
-          <li><a href="#vis-bxp-split-vs-comp">BXP Split vs Competition</a></li>
+          <li><a href="#vis-bxp-split-vs-comp">BXP Split (vs Competition)</a></li>
+        </ul>
+
+        <h4>16 Drivers</h4>
+        <ul>
           <li><a href="#vis-16-drivers">16 Drivers</a></li>
-        </ol>
+          <li><a href="#vis-16-drivers-by-importance">16 Drivers (by Importance)</a></li>
+        </ul>
+
       </nav>
 
     </header>
@@ -50,7 +61,7 @@
 
     <section id="vis-bxp-vs-categ">
 
-      <h3>BXP vs Category</h3>
+      <h3>BXP (vs Category)</h3>
 
       <div class="wrap-input">
 
@@ -84,7 +95,7 @@
 
     <section id="vis-bxp-vs-comp">
 
-      <h3>BXP vs Competition</h3>
+      <h3>BXP (vs Competition)</h3>
 
       <div class="wrap-input">
 
@@ -152,7 +163,7 @@
 
     <section id="vis-bxp-split-vs-comp">
 
-      <h3>BXP Split vs Competition</h3>
+      <h3>BXP Split (vs Competition)</h3>
 
       <div class="wrap-input">
 
@@ -229,6 +240,126 @@
           <li class="tr"><label>tr</label> <input type="number"> <input type="range"></li>
           <li class="va"><label>va</label> <input type="number"> <input type="range"></li>
         </ul>
+
+        <p><label>Reset:</label><button class="reset">Revert changes</button></p>
+
+      </div>
+
+      <div class="wrap-vis">
+        <svg width="750" height="500">
+          <g class="grid">
+            <line x1="375" y1="50" x2="375" y2="450" />
+            <line x1="175" y1="250" x2="575" y2="250" />
+          </g>
+          <g class="as"><circle /><text /></g>
+          <g class="at"><circle /><text /></g>
+          <g class="mo"><circle /><text /></g>
+          <g class="pe"><circle /><text /></g>
+          <g class="di"><circle /><text /></g>
+          <g class="em"><circle /><text /></g>
+          <g class="pu"><circle /><text /></g>
+          <g class="rl"><circle /><text /></g>
+          <g class="aw"><circle /><text /></g>
+          <g class="co"><circle /><text /></g>
+          <g class="po"><circle /><text /></g>
+          <g class="re"><circle /><text /></g>
+          <g class="ea"><circle /><text /></g>
+          <g class="in"><circle /><text /></g>
+          <g class="tr"><circle /><text /></g>
+          <g class="va"><circle /><text /></g>
+        </svg>
+      </div>
+
+    </section>
+
+    <section id="vis-16-drivers-by-importance">
+
+      <h3>16 Drivers (by Importance)</h3>
+
+      <div class="wrap-input">
+
+        <table class="drivers-by-importance">
+          <tr class="as">
+            <td class="id">as</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="at">
+            <td class="id">at</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="mo">
+            <td class="id">mo</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="pe">
+            <td class="id">pe</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="di">
+            <td class="id">di</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="em">
+            <td class="id">em</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="pu">
+            <td class="id">pu</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="rl">
+            <td class="id">rl</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="aw">
+            <td class="id">aw</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="co">
+            <td class="id">co</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="po">
+            <td class="id">po</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="re">
+            <td class="id">re</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="ea">
+            <td class="id">ea</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="in">
+            <td class="id">in</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="tr">
+            <td class="id">tr</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+          <tr class="va">
+            <td class="id">va</td>
+            <td class="score">score <input type="number"> <input type="range"></td>
+            <td class="importance">importance <input type="number"> <input type="range"></td>
+          </tr>
+        </table>
 
         <p><label>Reset:</label><button class="reset">Revert changes</button></p>
 

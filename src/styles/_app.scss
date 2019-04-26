@@ -78,6 +78,19 @@ section {
 
     }
 
+    table {
+      border-collapse: collapse;
+
+      &.drivers-by-importance {
+        td {
+          padding: 2px 10px;
+          border: 1px solid #ccc;
+        }
+
+      }
+
+    }
+
   }
 
   div.wrap-vis {

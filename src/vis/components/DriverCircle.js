@@ -28,10 +28,14 @@ export default class DriverCircle {
 
   updateSize(perc) {
 
-    const radius = MAX_RADIUS * perc;
+    const radius = MAX_RADIUS * perc,
+          textOn = radius > 20;
 
     this.d3Circle
       .attr('r', radius);
+
+    this.d3Text
+      .style('opacity', textOn ? 1 : 0)
 
   }
   updateColor(perc) {
