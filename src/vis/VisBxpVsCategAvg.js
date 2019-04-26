@@ -36,7 +36,7 @@ export default class VisBxpVsCategAvg {
       .on('input', ({ target }) => {
 
         let $trgt = $(target),
-            index = $trgt.closest('li').index(),
+            index = $trgt.closest('tr').index(),
             val   = $trgt.val();
 
         if (index === 0) {
@@ -80,8 +80,8 @@ export default class VisBxpVsCategAvg {
     this.thermostat.update(toPerc(this._bxp));
     this.thermostat.updateLine('category', toPerc(this._bxpCategory));
 
-    const $inputsBxp         = $(`${this.selector} .wrap-input ul.brands li:nth-child(1) input`),
-          $inputsCategoryBxp = $(`${this.selector} .wrap-input ul.brands li:nth-child(2) input`);
+    const $inputsBxp         = $(`${this.selector} .wrap-input table.brands tr:nth-child(1) input`),
+          $inputsCategoryBxp = $(`${this.selector} .wrap-input table.brands tr:nth-child(2) input`);
 
     $inputsBxp.val(this._bxp);
     $inputsCategoryBxp.val(this._bxpCategory);

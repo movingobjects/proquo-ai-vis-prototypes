@@ -46,8 +46,8 @@ export default class VisBxpSplitVsComp {
       .on('input', ({ target }) => {
 
         let $trgt  = $(target),
-            index  = $trgt.closest('li').index(),
-            isPush = $trgt.closest('p').hasClass('push'),
+            index  = $trgt.closest('tr').index(),
+            isPush = $trgt.closest('td').hasClass('push'),
             val    = $trgt.val();
 
         if (isPush) {
@@ -110,13 +110,13 @@ export default class VisBxpSplitVsComp {
 
     });
 
-    $(`${this.selector} .wrap-input ul.brands li`).each((index, el) => {
+    $(`${this.selector} .wrap-input table.brands tr`).each((index, el) => {
 
       let valPush = this._bxpPushes[index],
           valPull = this._bxpPulls[index];
 
-      $(el).find('p.push input').val(valPush);
-      $(el).find('p.pull input').val(valPull);
+      $(el).find('td.push input').val(valPush);
+      $(el).find('td.pull input').val(valPull);
 
     });
 

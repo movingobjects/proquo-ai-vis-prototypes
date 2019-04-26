@@ -42,18 +42,17 @@ export default class VisBxpSplitVsCategAvg {
       .on('input', ({ target }) => {
 
         let $trgt      = $(target),
-            isPush     = $trgt.closest('p').hasClass('push'),
-            isMyBrand  = $trgt.closest('li').hasClass('my-brand'),
-            isCategAvg = $trgt.closest('li').hasClass('categ-avg'),
+            isPush     = $trgt.closest('td').hasClass('push'),
+            index      = $trgt.closest('tr').index(),
             val        = $trgt.val();
 
-        if (isMyBrand) {
+        if (index === 0) {
           if (isPush) {
             this.bxpPush = val;
           } else {
             this.bxpPull = val;
           }
-        } else if (isCategAvg) {
+        } else if (index === 1) {
           if (isPush) {
             this.avgPush = val;
           } else {
@@ -116,10 +115,10 @@ export default class VisBxpSplitVsCategAvg {
     this.thermostat.updateLine('push-avg', true, toPerc(this._avgPush));
     this.thermostat.updateLine('pull-avg', false, toPerc(this._avgPull));
 
-    const $inputsPush    = $(`${this.selector} .wrap-input li.my-brand p.push input`),
-          $inputsPull    = $(`${this.selector} .wrap-input li.my-brand p.pull input`),
-          $inputsAvgPush = $(`${this.selector} .wrap-input li.categ-avg p.push input`),
-          $inputsAvgPull = $(`${this.selector} .wrap-input li.categ-avg p.pull input`);
+    const $inputsPush    = $(`${this.selector} .wrap-input tr:nth-child(1) td.push input`),
+          $inputsPull    = $(`${this.selector} .wrap-input tr:nth-child(1) td.pull input`),
+          $inputsAvgPush = $(`${this.selector} .wrap-input tr:nth-child(2) td.push input`),
+          $inputsAvgPull = $(`${this.selector} .wrap-input tr:nth-child(2) td.pull input`);
 
     $inputsPush.val(this._bxpPush);
     $inputsPull.val(this._bxpPull);

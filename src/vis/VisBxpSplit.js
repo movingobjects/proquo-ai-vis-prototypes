@@ -37,7 +37,7 @@ export default class VisBxpSplit {
       .on('input', ({ target }) => {
 
         let $trgt  = $(target),
-            isPush = $trgt.closest('p').hasClass('push'),
+            isPush = $trgt.closest('td').hasClass('push'),
             val   = $trgt.val();
 
         if (isPush) {
@@ -87,8 +87,8 @@ export default class VisBxpSplit {
     this.thermostat.updateA(toPerc(this._bxpPush));
     this.thermostat.updateB(toPerc(this._bxpPull));
 
-    const $inputsPush = $(`${this.selector} .wrap-input p.push input`),
-          $inputsPull = $(`${this.selector} .wrap-input p.pull input`);
+    const $inputsPush = $(`${this.selector} .wrap-input td.push input`),
+          $inputsPull = $(`${this.selector} .wrap-input td.pull input`);
 
     $inputsPush.val(this._bxpPush);
     $inputsPull.val(this._bxpPull);

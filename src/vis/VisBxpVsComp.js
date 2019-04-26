@@ -40,7 +40,7 @@ export default class VisBxpVsComp {
       .on('input', ({ target }) => {
 
         let $trgt = $(target),
-            index = $trgt.closest('li').index(),
+            index = $trgt.closest('tr').index(),
             val   = $trgt.val();
 
         switch (index) {
@@ -96,9 +96,9 @@ export default class VisBxpVsComp {
     this.thermostats[1].update(toPerc(this._bxpBrandB));
     this.thermostats[2].update(toPerc(this._bxpBrandC));
 
-    const $inputsBxp       = $(`${this.selector} .wrap-input ul.brands li:nth-child(1) input`),
-          $inputsBxpBrandB = $(`${this.selector} .wrap-input ul.brands li:nth-child(2) input`),
-          $inputsBxpBrandC = $(`${this.selector} .wrap-input ul.brands li:nth-child(3) input`);
+    const $inputsBxp       = $(`${this.selector} .wrap-input table.brands tr:nth-child(1) input`),
+          $inputsBxpBrandB = $(`${this.selector} .wrap-input table.brands tr:nth-child(2) input`),
+          $inputsBxpBrandC = $(`${this.selector} .wrap-input table.brands tr:nth-child(3) input`);
 
     $inputsBxp.val(this._bxp);
     $inputsBxpBrandB.val(this._bxpBrandB);
