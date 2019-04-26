@@ -5,7 +5,7 @@ import ThermostatSplit from './components/ThermostatSplit';
 const SPLIT_MIN = -1000,
       SPLIT_MAX = 1000;
 
-export default class BxpSplit {
+export default class VisBxpSplit {
 
   constructor(selector, data) {
 
