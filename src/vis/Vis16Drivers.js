@@ -46,9 +46,22 @@ export default class Vis16Drivers {
   initInputs() {
 
     this.$resetBtn = $(`${this.selector} .wrap-input button.reset`);
-
     this.$resetBtn
       .on('click', () => this.reset());
+
+    this.$inputs = $(`${this.selector} .wrap-input input`);
+    this.$inputs
+      .attr('min', SCORE_MIN)
+      .attr('max', SCORE_MAX)
+      .on('input', ({ target }) => {
+
+        let $trgt = $(target),
+            id    = $trgt.closest('li').attr('class'),
+            val   = $trgt.val();
+
+        this.setDriverScore(id, val);
+
+      });
 
   }
 
@@ -84,9 +97,14 @@ export default class Vis16Drivers {
 
     DRIVER_IDS.forEach((id, i) => {
 
-      let percColor = scoreToPerc(this.values[id].score);
+      let score     = this.values[id].score,
+          percColor = scoreToPerc(score);
 
       this.circles[id].updateColor(percColor);
+
+      let $inputs = $(`${this.selector} .wrap-input ul.drivers li.${id} input`);
+
+      $inputs.val(score);
 
     })
 

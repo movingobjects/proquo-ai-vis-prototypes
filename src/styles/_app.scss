@@ -15,14 +15,10 @@ section {
   border-top: 1px solid #ccc;
   padding-top: 25px;
 
-  svg {
-    border: 1px solid #ccc;
-  }
-
   div.wrap-input {
 
     label {
-      min-width: 50px;
+      width: 45px;
       display: inline-block;
       margin-right: 10px;
     }
@@ -41,39 +37,74 @@ section {
       margin-top: -5px;
     }
 
-    ul.brands {
+    ul {
       list-style: none;
       padding: 0;
-      display: flex;
 
-      li {
-        margin-right: 15px;
-        + li {
-          padding-left: 15px;
-          border-left: 1px solid #ccc;
+      &.brands {
+        display: flex;
+
+        li {
+          margin-right: 15px;
+          + li {
+            padding-left: 15px;
+            border-left: 1px solid #ccc;
+          }
         }
+
+      }
+
+      &.drivers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+
+        li {
+          flex-basis: 25%;
+
+          label {
+            width: 20px;
+            text-align: right;
+            margin-right: 5px;
+          }
+          input {
+            margin-right: 5px;
+            width: 60px;
+          }
+
+        }
+
       }
 
     }
 
   }
 
-  div.wrap-vis svg rect {
+  div.wrap-vis {
 
-    &.outline {
-      stroke-width: 1;
-      fill-opacity: 0;
-      stroke: black;
+    svg {
+      border: 1px solid #ccc;
+
+      rect {
+
+        &.outline {
+          stroke-width: 1;
+          fill-opacity: 0;
+          stroke: black;
+        }
+        &.fill {
+          fill: black;
+        }
+
+      }
+
+      line {
+        stroke: black;
+        stroke-width: 2;
+      }
+
     }
-    &.fill {
-      fill: black;
-    }
 
-  }
-
-  div.wrap-vis svg line {
-    stroke: black;
-    stroke-width: 2;
   }
 
 }
