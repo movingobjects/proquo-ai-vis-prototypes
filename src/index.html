@@ -25,6 +25,7 @@
         <h4>BXP Split</h4>
         <ul>
           <li><a href="#vis-bxp-split">BXP Split</a></li>
+          <li><a href="#vis-bxp-split-vs-categ-avg">BXP Split (vs Category Average)</a></li>
           <li><a href="#vis-bxp-split-vs-comp">BXP Split (vs Competition)</a></li>
         </ul>
 
@@ -157,6 +158,42 @@
           <rect class="push outline" x="95" y="225" width="275" height="50" />
           <rect class="pull fill"    x="380" y="225" width="275" height="50" />
           <rect class="pull outline" x="380" y="225" width="275" height="50" />
+        </svg>
+      </div>
+
+    </section>
+
+    <section id="vis-bxp-split-vs-categ-avg">
+
+      <h3>BXP Split (vs Category Average)</h3>
+
+      <div class="wrap-input">
+
+        <ul class="brands">
+          <li class="my-brand">
+            <h4 class="brand-name">My Brand</h4>
+            <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+            <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
+          </li>
+          <li class="categ-avg">
+            <h4 class="brand-name">Category Average</h4>
+            <p class="push"><label>Push</label><input type="number"><input type="range"></p>
+            <p class="pull"><label>Pull</label><input type="number"><input type="range"></p>
+          </li>
+        </ul>
+
+        <p><label>Reset</label><button class="reset">Revert changes</button></p>
+      </div>
+
+      <div class="wrap-vis">
+        <svg width="750" height="500">
+          <rect class="push fill"    x="95" y="225" width="275" height="50" />
+          <rect class="push outline" x="95" y="225" width="275" height="50" />
+          <rect class="pull fill"    x="380" y="225" width="275" height="50" />
+          <rect class="pull outline" x="380" y="225" width="275" height="50" />
+
+          <line class="push-avg" x1="370" y1="200" x2="370" y2="300" />
+          <line class="pull-avg" x1="380" y1="200" x2="380" y2="300" />
         </svg>
       </div>
 
