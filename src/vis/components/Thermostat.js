@@ -46,7 +46,7 @@ export default class Thermostat {
 
     if (line) {
 
-      let lineY = perc * this.areaH;
+      let lineY = (this.areaY + this.areaH) - (perc * this.areaH);
 
       line.d3
         .attr('y1', lineY)
