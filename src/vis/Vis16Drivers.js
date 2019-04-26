@@ -5,11 +5,11 @@ import DriverCircle from './components/DriverCircle';
 const SCORE_MIN = -100,
       SCORE_MAX = 100;
 
-const DRIVER_IDS = [
-  "as", "at", "di", "em",
-  "mo", "pe", "pu", "rl",
-  "aw", "co", "ea", "in",
-  "po", "re", "tr", "va"
+const DRIVERS = [
+  [ "as", "at", "di", "em" ],
+  [ "mo", "pe", "pu", "rl" ],
+  [ "aw", "co", "ea", "in" ],
+  [ "po", "re", "tr", "va" ]
 ];
 
 export default class Vis16Drivers {
@@ -21,26 +21,25 @@ export default class Vis16Drivers {
     this.values   = { };
 
     this.initVis();
-    this.reset();
-
     this.initInputs();
+
+    this.reset();
 
   }
 
   initVis() {
 
-    const selector = `${this.selector} .wrap-vis svg circle`;
-
     this.circles = { };
 
-    DRIVER_IDS.forEach((id, i) => {
+    DRIVERS.forEach((quad, qi) => quad.forEach((id, di) => {
 
-      let col = i % 4,
-          row = Math.floor(i / 4);
+      let selector = `${this.selector} .wrap-vis svg g`,
+          col      = (di % 2) + (2 * (qi % 2)),
+          row      = Math.floor(di / 2) + (2 * Math.floor(qi / 2));
 
-      this.circles[id] = new DriverCircle(`${selector}.${id}`, col, row);
+      this.circles[id] = new DriverCircle(id, selector, col, row);
 
-    });
+    }));
 
   }
   initInputs() {
@@ -91,22 +90,23 @@ export default class Vis16Drivers {
 
   update() {
 
-    const scoreToPerc = d3.scaleLinear()
-      .domain([ SCORE_MIN, SCORE_MAX ])
-      .range([ 0, 1 ]);
+    DRIVERS.forEach((quad) => {
 
-    DRIVER_IDS.forEach((id, i) => {
+      let ranked = quad.slice().map((id) => ({
+        id: id,
+        score: this.values[id].score
+      })).sort((a, b) => (a.score - b.score));
 
-      let score     = this.values[id].score,
-          percColor = scoreToPerc(score);
+      ranked.forEach((driver, i) => {
 
-      this.circles[id].updateColor(percColor);
+        this.circles[driver.id].updateColor(i / 3);
 
-      let $inputs = $(`${this.selector} .wrap-input ul.drivers li.${id} input`);
+        let $inputs = $(`${this.selector} .wrap-input ul.drivers li.${driver.id} input`);
+            $inputs.val(driver.score);
 
-      $inputs.val(score);
+      });
 
-    })
+    });
 
   }
 
