@@ -10,6 +10,7 @@ import VisBxpVsComp from './vis/VisBxpVsComp';
 import Vis16Drivers from './vis/Vis16Drivers';
 import Vis16DriversByImportance from './vis/Vis16DriversByImportance';
 import Vis16DriversVsCategAvg from './vis/Vis16DriversVsCategAvg';
+import Vis16DriversVsComp from './vis/Vis16DriversVsComp';
 
 import SAMPLE_DATA_SUMMARY from './data/sample_SubscriptSummary.json';
 import SAMPLE_DATA_DRIVERS from './data/sample_brandDriversGet.json';
@@ -25,7 +26,8 @@ import SAMPLE_DATA_DRIVERS from './data/sample_brandDriversGet.json';
     new VisBxpSplitVsComp('#vis-bxp-split-vs-comp', SAMPLE_DATA_SUMMARY),
     new Vis16Drivers('#vis-16-drivers', SAMPLE_DATA_SUMMARY),
     new Vis16DriversByImportance('#vis-16-drivers-by-importance', SAMPLE_DATA_SUMMARY),
-    new Vis16DriversVsCategAvg('#vis-16-drivers-vs-categ-avg', SAMPLE_DATA_SUMMARY)
+    new Vis16DriversVsCategAvg('#vis-16-drivers-vs-categ-avg', SAMPLE_DATA_SUMMARY),
+    new Vis16DriversVsComp('#vis-16-drivers-vs-comp', SAMPLE_DATA_SUMMARY)
   ];
 
 })(jQuery)
