@@ -47,13 +47,18 @@ export default class ThermostatCompare {
 
   updateView() {
 
+    let ax     = this.areaX,
+        ay     = this.areaY,
+        halfAw = this.areaW / 2,
+        halfAh = this.areaH / 2;
+
     this.items.forEach((item, i) => {
 
       if (item.val) {
 
         item.d3
-          .attr('cx', this.areaX + (this.areaW / 2))
-          .attr('cy', (this.areaY + (this.areaH / 2)) + (-item.val * (this.areaH / 2)));
+          .attr('cx', (ax + halfAw))
+          .attr('cy', (ay + halfAh) + (-item.val * halfAh));
       }
 
     })

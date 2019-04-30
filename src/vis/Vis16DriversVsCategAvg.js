@@ -50,34 +50,34 @@ export default class Vis16DriversVsCategAvg {
     this.$resetBtn
       .on('click', () => this.reset());
 
-      this.$inputsScore    = $(`${this.selector} .wrap-input table.drivers td.score input`),
-      this.$inputsCategAvg = $(`${this.selector} .wrap-input table.drivers td.categ-avg input`);
+    this.$inputsScore    = $(`${this.selector} .wrap-input table.drivers td.score input`),
+    this.$inputsCategAvg = $(`${this.selector} .wrap-input table.drivers td.categ-avg input`);
 
-      this.$inputsScore
-        .attr('min', SCORE_MIN)
-        .attr('max', SCORE_MAX)
-        .on('input', ({ target }) => {
+    this.$inputsScore
+      .attr('min', SCORE_MIN)
+      .attr('max', SCORE_MAX)
+      .on('input', ({ target }) => {
 
-          let $trgt = $(target),
-              id    = $trgt.closest('tr').attr('class'),
-              val   = +$trgt.val();
+        let $trgt = $(target),
+            id    = $trgt.closest('tr').attr('class'),
+            val   = +$trgt.val();
 
-          this.setDriverScore(id, val);
+        this.setDriverScore(id, val);
 
-        });
+      });
 
-      this.$inputsCategAvg
-        .attr('min', SCORE_MIN)
-        .attr('max', SCORE_MAX)
-        .on('input', ({ target }) => {
+    this.$inputsCategAvg
+      .attr('min', SCORE_MIN)
+      .attr('max', SCORE_MAX)
+      .on('input', ({ target }) => {
 
-          let $trgt        = $(target),
-              id           = $trgt.closest('tr').attr('class'),
-              val          = +$trgt.val();
+        let $trgt        = $(target),
+            id           = $trgt.closest('tr').attr('class'),
+            val          = +$trgt.val();
 
-          this.setDriverCategAvg(id, val);
+        this.setDriverCategAvg(id, val);
 
-        });
+      });
 
   }
 

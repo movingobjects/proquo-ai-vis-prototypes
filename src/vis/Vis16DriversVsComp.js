@@ -52,31 +52,31 @@ export default class Vis16DriversVsComp {
     this.$resetBtn
       .on('click', () => this.reset());
 
-      this.$inputs = $(`${this.selector} .wrap-input table.drivers input`);
+    this.$inputs = $(`${this.selector} .wrap-input table.drivers input`);
 
-      this.$inputs
-        .attr('min', SCORE_MIN)
-        .attr('max', SCORE_MAX)
-        .on('input', ({ target }) => {
+    this.$inputs
+      .attr('min', SCORE_MIN)
+      .attr('max', SCORE_MAX)
+      .on('input', ({ target }) => {
 
-          let $trgt = $(target),
-              id    = $trgt.closest('tr').attr('class'),
-              brand = $trgt.closest('td').attr('class'),
-              val   = +$trgt.val();
+        let $trgt = $(target),
+            id    = $trgt.closest('tr').attr('class'),
+            brand = $trgt.closest('td').attr('class'),
+            val   = +$trgt.val();
 
-          if (brand === 'my-brand') {
-            this.setDriverScore(id, 'myBrand', val);
+        if (brand === 'my-brand') {
+          this.setDriverScore(id, 'myBrand', val);
 
-          } else if (brand === 'brand-b') {
-            this.setDriverScore(id, 'brandB', val);
+        } else if (brand === 'brand-b') {
+          this.setDriverScore(id, 'brandB', val);
 
-          } else if (brand === 'brand-c') {
-            this.setDriverScore(id, 'brandC', val);
+        } else if (brand === 'brand-c') {
+          this.setDriverScore(id, 'brandC', val);
 
-          }
+        }
 
 
-        });
+      });
 
   }
 
